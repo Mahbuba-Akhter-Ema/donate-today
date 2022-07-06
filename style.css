@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:ital,wght@0,400;0,800;0,900;1,200;1,300;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+body p{
+    color: #707070;
+}
+/* header-section */
+.header-section{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+.header-info{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 0px 350px;
+}
+.header-info h1{
+    font-size: 50px; 
+    margin-bottom: 15px;
+}
+.header-info p{
+    color: white!important;
+}
+.btn-area{
+    padding-top: 20px;
+}
+.btn{
+   background-color: #FF5959;
+   padding: 12px 25px;
+   color: white;
+   font-size: 22px;
+   border-radius: 5px;
+   border: none;
+}
+/* Donate-Section */
+.donate-area{
+    height: 600px;
+    margin-top: 100px;
+    line-height: 40px;
+    position: relative;
+    padding: 0px 350px;
+}
+.donate-info{
+    text-align: center;
+    font-size: 18px;
+}
+.donate-info h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+#highlight-amount{
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 2px solid;
+}
+.donate-amount{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+.donate-amount p{
+    padding: 40px 28px;
+    background-color: #FAFAFA;
+    color: #707070;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.other-amount{
+    border-bottom: 2px solid;
+    color: #C5C5C5;
+    margin-bottom: 25px;
+}
+#input-area{
+    border: none;
+    font-size: 22px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    margin-left: 52px;
+}
+/* Donate-plan */
+.donate-plan-area{
+    height: 600px;
+    position: relative;
+}
+.donate-plan-info{
+    padding: 0px 350px;
+    text-align: center;
+}
+.donate-plan-area h1{
+    font-size: 35px;
+}
+.donate-plan-area p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.donate-plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.card{
+    width: 300px;
+    margin: 20px ;
+    background-color: antiquewhite;
+    padding: 40px;
+    text-align: left;
+    height: 300px;
+    border-radius: 5px;
+}
+.card h2{
+    margin-top: 30px;
+}
+.food{
+    background-color: #EDF5F6;
+}
+.shelter{
+    background-color: #FFEEEE;
+}
+.education{
+    background-color: #FFF4D6;
+}
+/* get-update-section */
+.get-update{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.get-info h1{
+    font-size: 35px;
+}
+.get-info p{
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 0px 390px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: #FFF4D6;
+    margin: 50px 300px;
+    padding: 80px 0px;
+}
+.email input{
+    border: none;
+    padding: 14.5px 35px;
+    padding-left: 15px;
+    background-color: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 18px;
+}
+.subs{
+    border-radius: 0px 5px 5px 0px!important;
+}
+/* footer */
+footer{
+    height: 180px;
+    background-color: #0B0D17;
+    color: white;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-size: 14px;
+    margin-left: 20px;
+}
+/* bonus-section */
+.bonus-section{
+    display: flex;
+    justify-content: right;
+    height: 500px;
+    width: 100%;
+    background-image: url(/images/donation13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.bonus-info{
+    background-color: #0B0D17;
+    width: 400px;
+    padding: 50px;
+    color: #fff;
+    text-align: center;
+    margin-right: 60px;
+    height: 200px;
+    margin-top: 100px;
+}
+.bonus-info h1{
+    font-size: 40px;
+}
+.bonus-info p{
+    margin-top: 20px;
+}
+.bonus-info button{
+    margin-top: 25px;
+}
